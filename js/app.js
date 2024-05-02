@@ -20,7 +20,7 @@ function changeBG() {
     document.querySelector("body").style.backgroundColor = randomHexColor;
 
 // asignar el mismo color hex aleatorio al span del texto en la web
-    document.querySelector("#hexValue").textContent = randomHexColor;
+    document.querySelector("#hex-value").textContent = randomHexColor;
 }
 
 
